@@ -1,0 +1,48 @@
+%YAML:1.0
+# 棋盘格参数
+chess_board_size: 15.
+chess_board_rows: 7
+chess_board_cols: 9
+window_size: 11
+
+# 内参标定图片数量
+internal_calibrate_image_num: 20
+
+# 标定图片保存路径
+internal_calibrate_image_save_path: "./qt_save_image"
+
+# 相机内参文件
+camera_internal_params_file: ""
+
+# lidar测量参数文件
+lidar_params_file: ""
+
+# anchors文件
+anchors_file: ""
+
+# 瞄准模式下定时测试时间间隔(ms)
+lidar_interval_time: 1000
+
+# anchors标定结果json保存文件路径
+anchors_result_json_save_path: "./anchors_result.json"
+
+#anchors标定结果txt保存文件路径
+anchors_result_txt_save_path: "./anchors_result.txt"
+
+
+# 保存内参N张图片的点位图
+is_save_image_points: false
+
+# 非直连车机，使用视频测试
+is_video_test: false
+test_video_path: "hello.avi"
+
+# 相机内参标定测试，使用本地的图片
+is_internal_params_test: false
+
+internal_calibrate_image_test_path: "G:/cplusplus/senseauto/qt_save_image"
+
+
+
+
+

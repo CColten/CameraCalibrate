@@ -1,0 +1,9 @@
+.vs/
+bin/
+core/
+libs/
+x64
+cam3danchor.pro.user
+build/
+thirdparty/
+
